@@ -1,7 +1,7 @@
 # LaTeX-Tutorial, by Moka
 
 Usei o (parco) tempo livre que tenho para seguir um dos tutoriais de LaTeX que
-me parece mais divertido, simples e direto: o
+me parece mais divertido, simples e objetivo: o
 [LaTeX-Tutorial](https://latex-tutorial.com).
 
 ## Registro dos estudos
