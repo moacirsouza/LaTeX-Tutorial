@@ -70,3 +70,5 @@ onde:
 | Tópico | Subtópico | Data |
 |--------|:---------:|------|
 | [Using LaTeX packages](https://www.latex-tutorial.com/tutorials/packages/) | - | 08/12/2025 |
+| [Insert an image in LaTeX – Adding a figure or picture](https://latex-tutorial.com/tutorials/figures/) | - | 20/12/2025 |
+
