@@ -4,6 +4,9 @@
 \date{08/12/2025}
 \author{Moka}
 
+\usepackage{amsmath}
+\usepackage{graphicx}
+
 \begin{document}
 
   \pagenumbering{gobble}
@@ -11,26 +14,84 @@
   \newpage
   \pagenumbering{arabic}
 
-  \section{Section}
+  \section{Section: Text}
 
-  Hello World!
+    Hello World! This is a Section. But what is a Section in the first place? 
+    And, honestly, how long should a Section be, before being split into two or
+    more lines? Or does it even matter? If I explicilty split my text before or
+    after column 80, like in the old days, will it make a difference? I don't
+    think so ;)
 
-  \subsection{Subsection}
+    Now I have a secong paragraph that's not explicitly marked as a paragraph.
+    How will LaTeX deal with this text? Will it put it in a new line and start
+    the text with a left shift? (Yes, it will!)
 
-  Structuring a document is easy!
+    And how about this one? Will it left shift and automatically justify it, 
+    just like last time? (Also yes!)
 
-  \subsubsection{Subsubsection}
+    \subsection{Subsection}
 
-  More text.
+      Structuring a document is easy!
 
-  \paragraph{Paragraph}
+    \subsubsection{Subsubsection}
 
-  Some more text.
+      More text (and some math).
 
-  \subparagraph{Subparagraph}
+      \begin{equation*}
+        f(x) = x^2
+      \end{equation*}
+      
+      Even more text, with embeded an formula, such as $f(y) = y^2 - y +1$, as an example.
 
-  Even more text
+      \paragraph{Paragraph}
 
-  \section{Another section}
+        Some more text.
 
+        \subparagraph{Subparagraph}
+
+          Even more text
+
+  \section{Another Section: Equations}
+
+    \subsection{Not aligned}
+      \begin{equation*}
+        1 + 2 = 3
+      \end{equation*}
+
+      \begin{equation*}
+        1 = 3 - 1
+      \end{equation*}
+
+    \subsection{Aligned (by the equal sign)}
+      \begin{align*}
+        1 + 2 &= 3 \\
+        1 &= 3 - 2
+      \end{align*}
+
+    \subsection{Several common functions}
+      \begin{align*}
+        f(x) &= x^2 \\
+        g(x) &= \frac{1}{x} \\
+        F(x) &= \int^a_b \frac{1}{3}x^3 \\
+        G(x) &= \frac{1}{\sqrt{x^2}} \\
+        H(x) &= \left(\frac{1}{\sqrt{x}}\sin(\theta)\right)
+      \end{align*}
+
+    \subsection{Matrices}
+
+    Matrices only work if inside "math environments", like "equation" or a pair
+    of dollar signs.
+
+      \begin{equation*}
+        \left[
+          \begin{matrix}
+            1 & 0\\
+            0 & 1
+          \end{matrix}
+        \right]
+      \end{equation*}
+
+  \section{Figures}
+
+  
 \end{document}
