@@ -12,9 +12,12 @@
 
   \pagenumbering{gobble}
   \maketitle
+
   \newpage
   \pagenumbering{arabic}
+  \tableofcontents
 
+  \newpage
   \section{Section: Text}
 
     Hello World! This is a Section. But what is a Section in the first place? 
@@ -51,7 +54,8 @@
         \subparagraph{Subparagraph}
 
           Even more text
-
+  
+  \newpage
   \section{Another Section: Equations}
 
     \subsection{Not aligned}
@@ -92,6 +96,7 @@
         \right]
       \end{equation*}
 
+  \newpage
   \section{Figures}
 
     A bunch of Figures :)
@@ -119,7 +124,7 @@
 
     Figure \ref{fig:cats} shows three baby cats, right next to each other.
     There is a black cat is on the left (Figure \ref{fig:blackcat}), a white
-    one (Figure \ref{fig:whitecat}) in the middle and an orange one on the
+    one in the middle (Figure \ref{fig:whitecat}) and an orange one on the
     right (Figure \ref{fig:orangecat}).
 
 \end{document}
