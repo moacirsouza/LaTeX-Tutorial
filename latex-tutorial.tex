@@ -6,6 +6,7 @@
 
 \usepackage{amsmath}
 \usepackage{graphicx}
+\usepackage{subcaption}
 
 \begin{document}
 
@@ -41,7 +42,7 @@
         f(x) = x^2
       \end{equation*}
       
-      Even more text, with embeded an formula, such as $f(y) = y^2 - y +1$, as an example.
+      Even more text, with the embeded formula $f(y) = y^2 - y +1$, as an example.
 
       \paragraph{Paragraph}
 
@@ -93,5 +94,32 @@
 
   \section{Figures}
 
-  
+    A bunch of Figures :)
+
+    \begin{figure}[h!]
+      \centering
+      \begin{subfigure}[b]{0.3\linewidth}
+        \includegraphics[width=\linewidth]{gato_preto.jpg}
+        \caption{A baby black cat.}
+        \label{fig:blackcat}
+      \end{subfigure}
+      \begin{subfigure}[b]{0.3\linewidth}
+        \includegraphics[width=\linewidth]{gato_branco.jpg}
+        \caption{A baby white cat.}
+        \label{fig:whitecat}
+      \end{subfigure}
+      \begin{subfigure}[b]{0.31\linewidth}
+        \includegraphics[width=\linewidth]{gato_laranja.jpg}
+        \caption{A baby orange cat.}
+        \label{fig:orangecat}
+      \end{subfigure}
+      \caption{Three baby cats, side by side}
+      \label{fig:cats}
+    \end{figure}
+
+    Figure \ref{fig:cats} shows three baby cats, right next to each other.
+    There is a black cat is on the left (Figure \ref{fig:blackcat}), a white
+    one (Figure \ref{fig:whitecat}) in the middle and an orange one on the
+    right (Figure \ref{fig:orangecat}).
+
 \end{document}
