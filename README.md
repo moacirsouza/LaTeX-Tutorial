@@ -72,4 +72,5 @@ onde:
 | [Using LaTeX packages](https://www.latex-tutorial.com/tutorials/packages/) | - | 08/12/2025 |
 | [Insert an image in LaTeX – Adding a figure or picture](https://latex-tutorial.com/tutorials/figures/) | - | 20/12/2025 |
 | [Generate a table of contents in LaTeX](https://latex-tutorial.com/tutorials/table-of-contents/) | - | 20/12/2025 |
+| [Bibliography in LaTeX with Bibtex/Biblatex](https://latex-tutorial.com/tutorials/bibtex/) | - | 21/12/2025 |
 
